@@ -1,0 +1,240 @@
+/* common css */
+.ph {
+  font-size: 24px;
+}
+
+a,
+p,
+span {
+  line-height: 24px;
+}
+
+/* banner region */
+.banner .info {
+  transform: translate(-50%, -50%);
+}
+
+.navBarItem a {
+  display: flex;
+  align-items: center;
+  color: blue;
+  text-decoration: none;
+  justify-content: center;
+  width: 100%;
+  /* box-sizing: border-box;
+  height: 100%; */
+  /* margin: 0 auto;
+  padding: 0;
+  border-bottom: 1px solid #d0d0d0; */
+}
+
+.navBar .avata {
+  position: relative;
+}
+
+.navBar .avata a {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+/* .img_avata {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid white;
+} */
+
+.mucTieuNgheNghiep .content,
+.thongtincanhan .content {
+  padding-left: 140px;
+  padding-right: 140px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.mucTieuNgheNghiep {
+  background: #f7f7f7;
+}
+
+.thongtincanhan {
+  background: #f7f7f7;
+}
+
+/* skill */
+
+.skill {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.skill-icon {
+  font-size: 35px;
+}
+
+.skillListItem {
+  position: relative;
+}
+
+.skillListItem::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: block;
+  background: rebeccapurple;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  left: -10px;
+}
+
+.level-bar-color {
+  width: 60px;
+  height: 3px;
+  background-color: #4263eb;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.level-bar-nocolor {
+  width: 60px;
+  height: 3px;
+  background-color: #495057;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.level-bar-color,
+.level-bar-nocolor {
+  display: inline-block;
+}
+
+#project {
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.personal .thongtincanhan .content {
+  position: relative;
+}
+
+.close-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0abde3;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 70px;
+  right: -4%;
+}
+
+/* Email */
+
+#email {
+  width: 80%;
+  padding: 5px 0 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #16a3ce;
+  outline: none;
+}
+.submit {
+  border: none;
+  outline: none;
+  width: 150px;
+  padding: 10px;
+  background-color: #16a3ce;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #056684;
+  color: white;
+  transition: all 0.5s;
+}
+
+.info-person {
+  display: none;
+}
+
+/* ẩn nút view more */
+
+.view-more,
+.view-less {
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background: #ebeb8e;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  visibility: hidden;
+}
+.skillContainer:hover .view-more,
+.skillContainer:hover .view-less {
+  visibility: visible;
+}
+.skillContainer {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.skillContainer:hover {
+  box-shadow: 0 0 5px 2px #d0d0d0;
+}
+
+/* digital-cv */
+
+.digital-cv {
+  background-color: #f0f8ff;
+}
+
+.title-cv {
+  color: blue;
+  border-bottom: 1px solid grey;
+}
+.icon-timeline {
+  display: flex;
+  color: white;
+  background-color: #9e88ff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+}
+.digital-content > div {
+  font-size: 15px;
+}
+.content {
+  border-bottom: 2px dotted lightblue;
+}
+.digital-cv {
+  border: 20px solid blue;
+}
+.border-cv {
+  border-right: 15px solid blue;
+}
+.border-cv1 {
+  border-bottom: 15px solid blue;
+}
+
+.border-cv1 {
+  height: 60%;
+}
+
+.submit a {
+  text-decoration: none;
+  color: white;
+}
+
+/* reponsive */

@@ -1,0 +1,12 @@
+@media (max-width: 1440px) {
+  .personal .content {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .skill {
+    width: 85%;
+  }
+}

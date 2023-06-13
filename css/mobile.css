@@ -1,0 +1,21 @@
+@media (max-width: 991px) {
+  .avata {
+    display: none;
+  }
+
+  .personal .content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .prizeItemLast {
+    width: 100% !important;
+  }
+
+  .project-2,
+  .project-3 {
+    margin-top: 50px;
+  }
+}
