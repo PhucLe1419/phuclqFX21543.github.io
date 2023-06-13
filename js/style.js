@@ -6,7 +6,6 @@ const submit = document.querySelector(".submit");
 const closeView = document.querySelector(".close-view");
 const valueChange = document.getElementById("email");
 const errorEmail = document.getElementById("error-email");
-
 // Kiem tra Email
 const emailCheck = (email) => {
   return email.match(
@@ -37,4 +36,17 @@ closeView.addEventListener("click", function () {
   valueEmailNew.focus();
   errorEmail.textContent = "Hãy nhập email để xác thực";
   errorEmail.style.color = "black";
+});
+
+//Kinh nghiem - Ky nang
+var btnExps = document.querySelectorAll(".view-more");
+console.log(btnExps);
+btnExps.forEach(function (btnExp) {
+  btnExp.addEventListener("click", function () {
+    if (btnExp.innerHTML.trim() == "VIEW MORE") {
+      btnExp.innerHTML = "VIEW LESS";
+    } else {
+      btnExp.innerHTML = "VIEW MORE";
+    }
+  });
 });

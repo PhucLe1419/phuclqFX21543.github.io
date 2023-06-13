@@ -238,3 +238,37 @@ span {
 }
 
 /* reponsive */
+@media (max-width: 1440px) {
+  .personal .content {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .skill {
+    width: 85%;
+  }
+}
+
+@media (max-width: 992px) {
+  .avata {
+    display: none;
+  }
+
+  .personal .content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .prizeItemLast {
+    width: 100% !important;
+  }
+
+  .project-2,
+  .project-3 {
+    margin-top: 50px;
+  }
+}
