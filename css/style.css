@@ -190,6 +190,53 @@ span {
 .skillContainer:hover {
   box-shadow: 0 0 5px 2px #d0d0d0;
 }
+
+/* digital-cv */
+
+.digital-cv {
+  background-color: #f0f8ff;
+}
+
+.title-cv {
+  color: blue;
+  border-bottom: 1px solid grey;
+}
+.icon-timeline {
+  display: flex;
+  color: white;
+  background-color: #9e88ff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+}
+.digital-content > div {
+  font-size: 15px;
+}
+.content {
+  border-bottom: 2px dotted lightblue;
+}
+.digital-cv {
+  border: 20px solid blue;
+}
+.border-cv {
+  border-right: 15px solid blue;
+}
+.border-cv1 {
+  border-bottom: 15px solid blue;
+}
+
+.border-cv1 {
+  height: 60%;
+}
+
+.submit a {
+  text-decoration: none;
+  color: white;
+}
+
 /* reponsive */
 @media (max-width: 1440px) {
   .personal .content {

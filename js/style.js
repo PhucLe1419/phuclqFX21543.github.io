@@ -29,7 +29,7 @@ submit.addEventListener("click", function () {
 });
 
 // Nut close Email
-const closeInfo = function () {
+closeView.addEventListener("click", function () {
   const valueEmailNew = document.getElementById("email");
   infoperson.style.display = "none";
   submitEmail.style.display = "block";
@@ -37,26 +37,4 @@ const closeInfo = function () {
   valueEmailNew.focus();
   errorEmail.textContent = "Hãy nhập email để xác thực";
   errorEmail.style.color = "black";
-};
-closeView.addEventListener("click", closeInfo);
-
-// Nut phần kinh nghiệm đến kỹ năng
-function click_Exp() {
-  const exp = document.getElementById("skill-detail");
-  const btnExp = document.getElementById("btnExp");
-
-  console.log(exp.style.color, btnExp.classList);
-  if (btnExp.classList.contains("collapsed")) {
-    // exp.style.display = "none";
-    // btnExp.classList.remove("view-less");
-    // btnExp.classList.add("view-more");
-    btnExp.innerHTML = "VIEW MORE";
-  } else {
-    // exp.style.display = "block";
-    // btnExp.classList.remove("view-less");
-    // btnExp.classList.add("view-more");
-    btnExp.innerHTML = "VIEW LESS";
-  }
-}
-
-console.log(btnExp);
+});
