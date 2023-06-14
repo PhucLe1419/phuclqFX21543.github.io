@@ -27,8 +27,15 @@ submit.addEventListener("click", function () {
   }
 });
 
+// Su kien nhan nút enter submit
+const EnterBtn = document.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    submit.click();
+  }
+});
 // Nut close Email
-closeView.addEventListener("click", function () {
+const btnCloseInfo = function () {
   const valueEmailNew = document.getElementById("email");
   infoperson.style.display = "none";
   submitEmail.style.display = "block";
@@ -36,7 +43,7 @@ closeView.addEventListener("click", function () {
   valueEmailNew.focus();
   errorEmail.textContent = "Hãy nhập email để xác thực";
   errorEmail.style.color = "black";
-});
+};
 
 //Kinh nghiem - Ky nang
 var btnExps = document.querySelectorAll(".view-more");

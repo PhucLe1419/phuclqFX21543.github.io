@@ -22,4 +22,46 @@
   #footer span {
     display: none;
   }
+
+  #prizeId .prize1,
+  #prizeId .prize2 {
+    border-bottom: 1px solid orange;
+    border-right: none !important;
+    margin-bottom: 20px;
+  }
+
+  #prizeId .prize3 {
+    margin-top: 0 !important;
+    border-top: none !important;
+  }
+}
+
+@media (max-width: 457px) {
+  #prizeId .prize1,
+  #prizeId .prize2 {
+    border-bottom: 1px solid orange;
+    border-right: none !important;
+    margin-bottom: 20px;
+  }
+
+  #prizeId .prize3 {
+    margin-top: 0 !important;
+    border-top: none !important;
+  }
+
+  #project-id .text-special {
+    font-size: 10px;
+  }
+
+  #project-id h3 {
+    font-size: 15px !important;
+  }
+
+  #project-id .skill-icon {
+    font-size: 17px !important;
+  }
+
+  #project-id .icon-fu {
+    gap: 0 !important;
+  }
 }

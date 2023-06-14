@@ -1,12 +1,34 @@
-@media (max-width: 1440px) {
+@media (max-width: 1480px) {
   .personal .content {
     padding-left: 70px;
     padding-right: 70px;
+  }
+
+  .personal h1 {
+    font-size: 30px !important;
   }
 }
 
 @media (max-width: 1280px) {
   .skill {
     width: 85%;
+  }
+}
+
+@media (max-width: 1250px) {
+  #project-id .text-special {
+    font-size: 10px;
+  }
+
+  #project-id h3 {
+    font-size: 20px !important;
+  }
+
+  #project-id .skill-icon {
+    font-size: 10px !important;
+  }
+
+  #project-id .icon-fu {
+    gap: 0 !important;
   }
 }
